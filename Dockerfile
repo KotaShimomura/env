@@ -38,5 +38,7 @@ RUN apt-get update && \
     pip install matplotlib-venn && \
     pip install --upgrade gensim && \
     pip install MulticoreTSNE && \
+    pip install geopy && \
+    pip install imblearn && \
     mkdir -p /home/share \
 #CMD jupyterlab
