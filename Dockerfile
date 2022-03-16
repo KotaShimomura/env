@@ -40,5 +40,6 @@ RUN apt-get update && \
     pip install MulticoreTSNE && \
     pip install geopy && \
     pip install imblearn && \
+    pip install texthero && \
     mkdir -p /home/share \
 #CMD jupyterlab
