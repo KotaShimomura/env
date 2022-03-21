@@ -1,5 +1,5 @@
 #!/bin/bash
-
+#
 TAG="kaggledockerimage"
 PROJECT_DIR="$(cd "$(dirname "${0}")/.." || exit; pwd)"
 
