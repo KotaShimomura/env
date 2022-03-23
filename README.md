@@ -23,14 +23,14 @@ cd env
 コンテナのビルド  
 `build.sh`のkotashimomuraにあたるところを使用するサーバーのユーザー名に変更してください
 ```sh
-cd ./build.sh
+./build.sh
 ```
 コンテナの起動
 ```sh
-cd ./run.sh
+./run.sh
 ```
 jupyter notebookを起動したい場合
 ```sh
-cd ./jupyter.sh
+./jupyter.sh
 ```
 
