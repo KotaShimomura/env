@@ -41,5 +41,7 @@ RUN apt-get update && \
     pip install geopy && \
     pip install imblearn && \
     pip install texthero && \
+    pip install tokenizers==0.11.6 && \
+    pip install transformers==4.16.2 && \
     mkdir -p /home/share \
 #CMD jupyterlab
