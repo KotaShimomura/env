@@ -10,7 +10,8 @@ WLS2環境は動作未確認
 # 下準備
 ubuntuにNvidia driver,cudaのinstall
 Nvidia japanさんの[ここ](https://medium.com/nvidiajapan/nvidia-docker-%E3%81%A3%E3%81%A6%E4%BB%8A%E3%81%A9%E3%81%86%E3%81%AA%E3%81%A3%E3%81%A6%E3%82%8B%E3%81%AE-20-09-%E7%89%88-558fae883f44)の手順に従って`nvidia-smi`が通るように進める．  
-基本的には最新verが入るようになっているため必要に応じversion指定を各自行うこと．
+基本的には最新verが入るようになっているため必要に応じversion指定を各自行うこと．  
+GPUのアーキテクチャ，Nvidiadriver, cudaのversionに対応したイメージversion[ここ](https://docs.nvidia.com/deeplearning/frameworks/support-matrix/index.html)から見つける．
 
 # 本リポジトリを使用してkaggle環境の構築
 クローン
