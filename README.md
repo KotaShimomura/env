@@ -14,7 +14,7 @@ Nvidia japanさんの[ここ](https://medium.com/nvidiajapan/nvidia-docker-%E3%8
 GPUのアーキテクチャ，Nvidiadriver, cudaのversionに対応したイメージversion[ここ](https://docs.nvidia.com/deeplearning/frameworks/support-matrix/index.html)から見つける．
 
 # 本リポジトリを使用してkaggle環境の構築
-クローン
+クローン(ホームディレクトリで)
 ```sh
 git clone git@github.com:KotaShimomura/env.git
 ```
